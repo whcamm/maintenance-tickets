@@ -46,6 +46,7 @@ Full documentation:
 - [Sequence diagrams: create ticket + status transition](docs/sequence-diagram.md)
 - [Data model / ERD](docs/data-model.md)
 - [Interface prototype (screens)](docs/mockup.md)
+- Exported diagrams (PNG + PDF): [summary](docs/diagrams/summary) · [detailed](docs/diagrams/detailed)
 
 ## Workflow rules
 
