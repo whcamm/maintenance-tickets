@@ -1,5 +1,9 @@
 # Solution Architecture
 
+![Architecture](diagrams/summary/1-architecture.png)
+
+Detailed version: [PNG](diagrams/detailed/architecture.png)
+
 ```mermaid
 flowchart LR
     user["Reporter / Operator<br/>(browser)"]

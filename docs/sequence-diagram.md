@@ -2,6 +2,16 @@
 
 Main flow: a reporter creates a ticket and an operator moves it through the workflow. Every status change is persisted together with a history entry by a stored procedure.
 
+## Overview
+
+![Create ticket](diagrams/summary/3-sequence-create-ticket.png)
+
+![Status change](diagrams/summary/4-sequence-status-change.png)
+
+![State machine](diagrams/summary/5-state-machine.png)
+
+Detailed versions: [create ticket](diagrams/detailed/sequence-create-ticket.png) · [status transition](diagrams/detailed/sequence-status-transition.png) · [state machine](diagrams/detailed/ticket-state-machine.png) · [PDF](diagrams/detailed/diagrams.pdf)
+
 ## 1. Create ticket
 
 ```mermaid

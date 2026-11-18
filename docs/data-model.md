@@ -2,6 +2,10 @@
 
 Core relationship: **Ticket (1) — (N) Ticket history**. Every ticket has at least one history entry (`CREATED`), and every status change, comment and assignment adds a new entry.
 
+![ERD](diagrams/summary/2-erd.png)
+
+Detailed version with every column: [PNG](diagrams/detailed/erd.png) · [PDF](diagrams/detailed/diagrams.pdf)
+
 ```mermaid
 erDiagram
     TICKET_STATUSES ||--o{ TICKETS : "current status"
