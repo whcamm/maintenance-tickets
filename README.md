@@ -2,8 +2,8 @@
 
 Maintenance ticket control for physical assets such as ATMs and office infrastructure. A reporter creates a ticket and an operator moves it through a validated workflow. Every change is stored in an auditable history.
 
-**Live demo:** _URL will be added after deployment_  
-**API docs (Swagger):** `<live-url>/docs`
+**Live demo:** https://app-production-cc2fcb7f.up.railway.app  
+**API docs (Swagger):** https://app-production-cc2fcb7f.up.railway.app/docs
 
 ![Board](docs/mockup/01-board.png)
 
