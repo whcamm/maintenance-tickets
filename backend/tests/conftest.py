@@ -1,0 +1,3 @@
+import os
+
+os.environ.setdefault("DATABASE_URL", "mysql://test:test@localhost:3306/test")
